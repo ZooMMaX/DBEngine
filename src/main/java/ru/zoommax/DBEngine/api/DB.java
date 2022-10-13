@@ -1,8 +1,8 @@
-package ru.zoommax.api;
+package ru.zoommax.DBEngine.api;
 
 import lombok.AllArgsConstructor;
-import ru.zoommax.core.configs.HikariConfMySQL;
-import ru.zoommax.core.configs.HikariConfSQLite;
+import ru.zoommax.DBEngine.core.configs.HikariConfMySQL;
+import ru.zoommax.DBEngine.core.configs.HikariConfSQLite;
 
 import javax.validation.constraints.NotNull;
 import java.sql.*;
