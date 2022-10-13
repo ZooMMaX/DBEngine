@@ -1,10 +1,10 @@
-package ru.zoommax.core;
+package ru.zoommax.DBEngine.core;
 
 import lombok.SneakyThrows;
-import ru.zoommax.api.DBType;
-import ru.zoommax.core.configs.HikariConfMySQL;
-import ru.zoommax.core.configs.HikariConfSQLite;
-import ru.zoommax.core.exceptions.ParamDBException;
+import ru.zoommax.DBEngine.api.DBType;
+import ru.zoommax.DBEngine.core.configs.HikariConfMySQL;
+import ru.zoommax.DBEngine.core.configs.HikariConfSQLite;
+import ru.zoommax.DBEngine.core.exceptions.ParamDBException;
 
 import javax.validation.constraints.NotNull;
 

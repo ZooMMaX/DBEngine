@@ -6,7 +6,7 @@
 
     <groupId>ru.zoommax</groupId>
     <artifactId>DBEngine</artifactId>
-    <version>1.0</version>
+    <version>1.1</version>
     <name>DBEngine</name>
     <description>Engine library for databases</description>
     <url>https://github.com/ZooMMaX/DBEngine</url>

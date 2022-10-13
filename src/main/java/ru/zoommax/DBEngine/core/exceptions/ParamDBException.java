@@ -1,6 +1,6 @@
-package ru.zoommax.core.exceptions;
+package ru.zoommax.DBEngine.core.exceptions;
 
-import ru.zoommax.api.DBType;
+import ru.zoommax.DBEngine.api.DBType;
 
 public class ParamDBException extends Exception {
     public ParamDBException(DBType type, String params) {

@@ -30,9 +30,9 @@ implementation 'ru.zoommax:DBEngine:VERSION'
 ### How to use
 
 ```java
-import ru.zoommax.api.DB;
-import ru.zoommax.api.DBType;
-import ru.zoommax.core.DBInit;
+import ru.zoommax.DBEngine.api.DB;
+import ru.zoommax.DBEngine.api.DBType;
+import ru.zoommax.DBEngine.core.DBInit;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -49,10 +49,10 @@ public class TestMain {
             ok = new DB(DBType.SQLITE, "INSERT INTO test(t, s) VALUES(?, ?);", ins).execSQL();
             if (ok) {
                 ArrayList<HashMap<String, Object>> result = new DB(DBType.SQLITE, "SELECT * FROM test;", null).getMultiResultSet();
-                for (HashMap<String, Object> hashMap : result){
+                for (HashMap<String, Object> hashMap : result) {
                     String s = (String) hashMap.get("s");
                     String t = (String) hashMap.get("t");
-                    System.out.println(t+s);
+                    System.out.println(t + s);
                 }
             }
         }

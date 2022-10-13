@@ -1,4 +1,4 @@
-package ru.zoommax.core.configs;
+package ru.zoommax.DBEngine.core.configs;
 
 import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;
