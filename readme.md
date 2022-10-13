@@ -2,7 +2,7 @@
 [![GitHub license](https://img.shields.io/github/license/ZooMMaX/DBEngine?style=plastic)](https://github.com/ZooMMaX/DBEngine/blob/release/LICENSE)
 [![GitHub issues](https://img.shields.io/github/issues/ZooMMaX/DBEngine?style=plastic)](https://github.com/ZooMMaX/DBEngine/issues)
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/ZooMMaX/DBEngine/Build?style=plastic)
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/ZooMMaX/DBEngine/Maven%20Central%20deploy?style=plastic)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/ZooMMaX/DBEngine/Maven%20Package?style=plastic)
 [![Maven Central](https://img.shields.io/maven-central/v/ru.zoommax/DBEngine.svg?label=Maven%20Central&style=plastic)](https://search.maven.org/search?q=g:%22ru.zoommax%22%20AND%20a:%22DBEngine%22)
 
 
